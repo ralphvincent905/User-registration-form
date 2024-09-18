@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="app.css">
+    
+</head>
+<h1>Humber College Registration Form</h1>
+
+    <body>
+        
+        <Form action="/my-handling-form-page" method="POST">
+           
+                
+            <label for="name">Full Name:</label><br>
+            <input type="text" name="name" id="name" required><br><br>
+
+            <label for="Address">Address:</label><br>
+            <input type="text" address="name" id="address" required><br><br>   
+                
+            <label for="email">Email Address:</label><br>
+            <input type="email" name="email" id="email" required><br><br>
+
+            <label for="mobile number">Mobile Number:</label><br>
+            <input type="mobile number" name="mobile number" id="mobile number" required><br><br>
+
+            <label for="password">Password: </label><br>
+            <input type="password" name="password" id="password" required><br><br>
+                
+                
+            <fieldset>
+                <legend>Gender: </legend>
+                <label><input type="radio" name="gender" value="male" required> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="other"> Other</label>
+            </fieldset><br><br>
+                
+                
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob"><br><br>
+                
+               
+                <label><input type="checkbox" name="terms" required> I agree to the Terms and Conditions</label><br><br>
+                
+                
+                <button onClick="sendData()" type="submit">Register</button>
+            
+        
+        </Form>
+    </body>
+
+</html>
